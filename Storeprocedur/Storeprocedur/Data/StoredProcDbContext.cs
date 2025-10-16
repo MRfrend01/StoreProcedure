@@ -8,5 +8,6 @@ namespace Storeprocedur.Data
         public StoredProcDbContext(DbContextOptions<StoredProcDbContext> options)
             : base(options) { }
         public DbSet<Employee> Employees { get; set; }  
+        public DbSet<Student> Students { get; set; }
     }
 }
